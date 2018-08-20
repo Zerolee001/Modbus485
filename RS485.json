@@ -1,0 +1,70 @@
+{
+	"comInfo" : [ 
+  	{
+      "com": 2,
+      "phyConf" : {
+         "bRate" : 9600,
+         "dBit" : 8,
+         "ptyBit" : 1,
+         "sBit" : 1
+      },
+      "mdbConf" : {
+         "std" : true,
+         "RTU" : true,
+         "master" : true
+      },
+      "slaveConf": {
+         "cnt" : 4,
+         "addrs" : [ 1, 2, 3, 4 ]
+      },
+	  "deviceType": 60928,
+	  "hwInfo": {
+		"brand": "AdvancedDevice",	
+		"model": "AD-RS485-4CH"
+	  } 
+	},
+	{
+      "com": 3,
+      "phyConf" : {
+         "bRate" : 19200,
+         "dBit" : 8,
+         "ptyBit" : 1,
+         "sBit" : 1
+      },
+      "mdbConf" : {
+         "std" : true,
+         "RTU" : true,
+         "master" : true
+      },
+      "slaveConf" : {
+         "cnt" : 1,
+         "addrs" : [2]
+      },
+	  "deviceType": 60929,
+	  "hwInfo": {
+		"brand": "BAIKIN",	
+		"model": "DK-PB-6CH"
+	  }
+	},
+	{
+      "com": 6,
+      "phyConf" : {
+         "bRate" : 115200,
+         "dBit" : 8,
+         "ptyBit" : 1,
+         "sBit" : 1
+      },
+      "mdbConf" : {
+         "std" : true,
+         "RTU" : true,
+         "master" : false,
+		 "slaveAddr": 21
+      },
+      "deviceType": 16,
+	  "hwInfo": {
+		"brand": "Moorgen",	
+		"model": "MR5007"
+	  }
+	}
+   ]
+}
